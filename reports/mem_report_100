@@ -1,0 +1,557 @@
+Total allocated: 1322573 bytes (14839 objects)
+Total retained:  68779 bytes (836 objects)
+
+allocated memory by gem
+-----------------------------------
+    833728  ethon-0.10.1
+    240021  ffi-1.9.17
+    214872  typhoeus-1.1.2
+     33952  other
+
+allocated memory by file
+-----------------------------------
+    219141  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb
+    206400  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/mirror.rb
+    205980  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb
+    120000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/curls/infos.rb
+    105680  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/multi/operations.rb
+     85600  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/request.rb
+     83200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/easy_factory.rb
+     57900  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/header.rb
+     39200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/http/actionable.rb
+     33952  memory_test.rb
+     32000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/request/callbacks.rb
+     25200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/curls/options.rb
+     24400  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy.rb
+     16800  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/http.rb
+     12000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/struct.rb
+      9840  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/pool.rb
+      8880  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/autopointer.rb
+      8000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/response_callbacks.rb
+      8000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/util.rb
+      4400  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/debug_info.rb
+      4000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/form.rb
+      4000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/params.rb
+      4000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/hydra/addable.rb
+      3600  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/operations.rb
+       168  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/multi/stack.rb
+       152  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/hydra.rb
+        40  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/hydra/memoizable.rb
+        40  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/hydra/queueable.rb
+
+allocated memory by location
+-----------------------------------
+    203141  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+    198400  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/mirror.rb:13
+    148310  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:25
+     56080  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/multi/operations.rb:174
+     56000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/curls/infos.rb:142
+     50400  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/request.rb:214
+     40310  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:26
+     33600  memory_test.rb:15
+     32000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/curls/infos.rb:125
+     32000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/header.rb:31
+     24800  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/easy_factory.rb:154
+     24000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/curls/options.rb:98
+     24000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy.rb:236
+     23200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/http/actionable.rb:142
+     23200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/easy_factory.rb:99
+     23200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/request.rb:116
+     21600  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/multi/operations.rb:144
+     17900  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/header.rb:56
+     16000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/curls/infos.rb:107
+     16000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/curls/infos.rb:110
+     16000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:54
+     16000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/easy_factory.rb:124
+     12720  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/multi/operations.rb:149
+     12000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/struct.rb:75
+     12000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/request.rb:215
+     11200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/easy_factory.rb:158
+      8800  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/http.rb:59
+      8000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/header.rb:27
+      8000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/http.rb:56
+      8000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/mirror.rb:17
+      8000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/util.rb:20
+      8000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/request/callbacks.rb:103
+      8000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/request/callbacks.rb:122
+      4800  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/multi/operations.rb:142
+      4800  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/multi/operations.rb:162
+      4760  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/multi/operations.rb:147
+      4440  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/autopointer.rb:87
+      4440  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/autopointer.rb:96
+      4400  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:28
+      4400  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/debug_info.rb:22
+      4320  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:38
+      4320  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:53
+      4320  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:67
+      4000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/form.rb:26
+      4000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/http/actionable.rb:141
+      4000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/http/actionable.rb:150
+      4000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/http/actionable.rb:64
+      4000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/http/actionable.rb:74
+      4000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/params.rb:24
+      4000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/response_callbacks.rb:32
+
+allocated memory by class
+-----------------------------------
+    501661  String
+    354312  Hash
+    113840  FFI::MemoryPointer
+     93280  FFI::Pointer
+     66008  Array
+     42720  Proc
+     25752  FFI::AutoPointer
+     24000  Bignum
+     18960  RubyVM::Env
+     10400  Typhoeus::Request
+      9768  Method
+      8800  Ethon::Curl::Msg
+      8800  Ethon::Easy::Http::Get
+      8000  Ethon::Easy::Mirror
+      8000  Typhoeus::Response
+      4440  FFI::AutoPointer::CallableReleaser
+      4400  Ethon::Easy::DebugInfo
+      4000  Ethon::Curl::MsgData
+      4000  Ethon::Easy::Form
+      4000  Ethon::Easy::Params
+      4000  Typhoeus::EasyFactory
+      1840  Ethon::Easy
+      1200  FFI::Function
+       120  Ethon::Curl::FDSet
+       112  Ethon::Multi
+        80  Typhoeus::Hydra
+        40  Ethon::Curl::Timeval
+        40  MemoryTest
+
+allocated objects by gem
+-----------------------------------
+      9599  ethon-0.10.1
+      2814  typhoeus-1.1.2
+      2223  ffi-1.9.17
+       203  other
+
+allocated objects by file
+-----------------------------------
+      3000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/curls/infos.rb
+      2428  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/multi/operations.rb
+      1701  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb
+      1000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/easy_factory.rb
+       800  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/request/callbacks.rb
+       700  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/request.rb
+       630  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/curls/options.rb
+       610  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy.rb
+       600  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/header.rb
+       500  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/http/actionable.rb
+       400  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/mirror.rb
+       390  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb
+       300  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/http.rb
+       300  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/struct.rb
+       222  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/autopointer.rb
+       210  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/pool.rb
+       203  memory_test.rb
+       200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/response_callbacks.rb
+       200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/util.rb
+       110  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/debug_info.rb
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/form.rb
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/params.rb
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/hydra/addable.rb
+        30  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/operations.rb
+         2  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/hydra.rb
+         1  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/multi/stack.rb
+         1  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/hydra/memoizable.rb
+         1  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/hydra/queueable.rb
+
+allocated objects by location
+-----------------------------------
+      1402  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/multi/operations.rb:174
+      1400  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/curls/infos.rb:142
+      1301  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+       800  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/curls/infos.rb:125
+       600  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/curls/options.rb:98
+       600  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy.rb:236
+       540  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/multi/operations.rb:144
+       400  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/curls/infos.rb:107
+       400  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/curls/infos.rb:110
+       400  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:54
+       400  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/easy_factory.rb:124
+       300  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/struct.rb:75
+       300  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/request.rb:214
+       300  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/request.rb:215
+       200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/header.rb:27
+       200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/header.rb:31
+       200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/header.rb:56
+       200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/http.rb:56
+       200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/mirror.rb:13
+       200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/mirror.rb:17
+       200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/util.rb:20
+       200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/easy_factory.rb:154
+       200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/request/callbacks.rb:103
+       200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/request/callbacks.rb:122
+       200  memory_test.rb:15
+       120  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/multi/operations.rb:142
+       120  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/multi/operations.rb:162
+       119  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/multi/operations.rb:147
+       111  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/autopointer.rb:87
+       111  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/autopointer.rb:96
+       110  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:25
+       110  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:26
+       110  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:28
+       110  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/debug_info.rb:22
+       110  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/multi/operations.rb:149
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/form.rb:26
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/http.rb:59
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/http/actionable.rb:141
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/http/actionable.rb:142
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/http/actionable.rb:150
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/http/actionable.rb:64
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/http/actionable.rb:74
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/params.rb:24
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/response_callbacks.rb:32
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/response_callbacks.rb:56
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/easy_factory.rb:155
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/easy_factory.rb:158
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/easy_factory.rb:159
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/easy_factory.rb:99
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/hydra/addable.rb:19
+
+allocated objects by class
+-----------------------------------
+      4021  String
+      2846  FFI::MemoryPointer
+      2332  FFI::Pointer
+      1647  Array
+      1213  Hash
+       600  Bignum
+       330  Proc
+       220  Ethon::Curl::Msg
+       200  Ethon::Easy::Mirror
+       200  Typhoeus::Response
+       140  RubyVM::Env
+       111  FFI::AutoPointer
+       111  FFI::AutoPointer::CallableReleaser
+       111  Method
+       110  Ethon::Easy::DebugInfo
+       100  Ethon::Curl::MsgData
+       100  Ethon::Easy::Form
+       100  Ethon::Easy::Http::Get
+       100  Ethon::Easy::Params
+       100  Typhoeus::EasyFactory
+       100  Typhoeus::Request
+        30  FFI::Function
+        10  Ethon::Easy
+         3  Ethon::Curl::FDSet
+         1  Ethon::Curl::Timeval
+         1  Ethon::Multi
+         1  MemoryTest
+         1  Typhoeus::Hydra
+
+retained memory by gem
+-----------------------------------
+     46848  ethon-0.10.1
+     19291  ffi-1.9.17
+      2640  typhoeus-1.1.2
+
+retained memory by file
+-----------------------------------
+     17440  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/header.rb
+     15360  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb
+     10411  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb
+      8880  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/autopointer.rb
+      5160  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/mirror.rb
+      3600  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/operations.rb
+      2888  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/multi/operations.rb
+      1840  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/pool.rb
+      1200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/curls/options.rb
+       800  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/debug_info.rb
+       600  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/request/callbacks.rb
+       400  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/curls/infos.rb
+       200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/easy_factory.rb
+
+retained memory by location
+-----------------------------------
+     13440  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/header.rb:31
+     10011  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+      4960  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/mirror.rb:13
+      4440  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/autopointer.rb:87
+      4440  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/autopointer.rb:96
+      4320  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:38
+      4320  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:53
+      4320  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:67
+      4000  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/header.rb:27
+      3600  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/operations.rb:13
+      2760  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/multi/operations.rb:174
+      1840  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/pool.rb:43
+      1200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/curls/options.rb:100
+       800  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:25
+       800  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:26
+       800  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:28
+       800  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/debug_info.rb:22
+       400  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/curls/infos.rb:110
+       400  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:54
+       400  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/request/callbacks.rb:103
+       200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/mirror.rb:17
+       200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/easy_factory.rb:155
+       200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/request/callbacks.rb:88
+       128  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/multi/operations.rb:16
+
+retained memory by class
+-----------------------------------
+     12011  String
+      9768  Method
+      9120  Proc
+      7600  FFI::Pointer
+      6960  FFI::AutoPointer
+      5840  Array
+      4960  Hash
+      4440  FFI::AutoPointer::CallableReleaser
+      3840  RubyVM::Env
+      1840  Ethon::Easy
+      1200  FFI::Function
+       800  Ethon::Easy::DebugInfo
+       200  Ethon::Easy::Mirror
+       200  Typhoeus::Response
+
+retained objects by gem
+-----------------------------------
+       511  ethon-0.10.1
+       295  ffi-1.9.17
+        30  typhoeus-1.1.2
+
+retained objects by file
+-----------------------------------
+       222  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/autopointer.rb
+       220  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/header.rb
+       120  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb
+        73  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb
+        71  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/multi/operations.rb
+        30  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/curls/options.rb
+        30  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/operations.rb
+        20  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/debug_info.rb
+        15  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/request/callbacks.rb
+        10  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/curls/infos.rb
+        10  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/mirror.rb
+        10  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/pool.rb
+         5  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/easy_factory.rb
+
+retained objects by location
+-----------------------------------
+       120  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/header.rb:31
+       111  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/autopointer.rb:87
+       111  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/autopointer.rb:96
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/header.rb:27
+        69  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/multi/operations.rb:174
+        63  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+        30  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/curls/options.rb:100
+        30  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/operations.rb:13
+        20  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:25
+        20  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:26
+        20  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:28
+        20  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:38
+        20  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:53
+        20  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:67
+        20  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/debug_info.rb:22
+        10  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/curls/infos.rb:110
+        10  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:54
+        10  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/pool.rb:43
+        10  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/request/callbacks.rb:103
+         5  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/mirror.rb:13
+         5  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/mirror.rb:17
+         5  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/easy_factory.rb:155
+         5  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/request/callbacks.rb:88
+         2  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/multi/operations.rb:16
+
+retained objects by class
+-----------------------------------
+       190  FFI::Pointer
+       146  Array
+       113  String
+       111  FFI::AutoPointer::CallableReleaser
+       111  Method
+        30  FFI::AutoPointer
+        30  FFI::Function
+        30  Proc
+        30  RubyVM::Env
+        20  Ethon::Easy::DebugInfo
+        10  Ethon::Easy
+         5  Ethon::Easy::Mirror
+         5  Hash
+         5  Typhoeus::Response
+
+
+Allocated String Report
+-----------------------------------
+       200  "\u0000"
+       200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/util.rb:20
+
+       200  "93.184.216.34"
+       200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:54
+
+       200  "Expect"
+       200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/request.rb:215
+
+       200  "http://example.com/"
+       200  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:54
+
+       189  "<!doctype html>\n<html>\n<head>\n    <title>Example Domain</title>\n\n    <meta charset=\"utf-8\" />\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" />\n    <meta name=\"viewport\" content"
+        99  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+        90  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:25
+
+       140  ""
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/request.rb:215
+        20  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:25
+        20  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:26
+
+       100  "\r\n"
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+       100  "Cache-Control: max-age=604800\r\n"
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+       100  "Content-Length: 1270\r\n"
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+       100  "Content-Type: text/html\r\n"
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+       100  "Etag: \"359670651+gzip+ident\"\r\n"
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+       100  "Expect: "
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/header.rb:56
+
+       100  "Get"
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/http.rb:56
+
+       100  "HTTP/1.1 200 OK\r\n"
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+       100  "Last-Modified: Fri, 09 Aug 2013 23:54:35 GMT\r\n"
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+       100  "Server: ECS (ewr/15BD)\r\n"
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+       100  "User-Agent: Typhoeus - https://github.com/typhoeus/typhoeus"
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/header.rb:56
+
+       100  "Vary: Accept-Encoding\r\n"
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+       100  "X-Cache: HIT\r\n"
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+       100  "all"
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/pool.rb:21
+
+       100  "connecttimeout"
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/easy_factory.rb:124
+
+       100  "connecttimeout_ms"
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/easy_factory.rb:124
+
+       100  "flush"
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/pool.rb:20
+
+       100  "get"
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/http.rb:56
+
+       100  "headers"
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy.rb:236
+
+       100  "headers="
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy.rb:236
+
+       100  "maxredirs"
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy.rb:236
+
+       100  "maxredirs="
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy.rb:236
+
+       100  "nosignal"
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy.rb:236
+
+       100  "nosignal="
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy.rb:236
+
+       100  "timeout"
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/easy_factory.rb:124
+
+       100  "timeout_ms"
+       100  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/typhoeus-1.1.2/lib/typhoeus/easy_factory.rb:124
+
+        80  "Date: Fri, 03 Mar 2017 14:23:08 GMT\r\n"
+        80  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+        80  "Expires: Fri, 10 Mar 2017 14:23:08 GMT\r\n"
+        80  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+        80  "HTTP/1.1 200 OK\r\nCache-Control: max-age=604800\r\nContent-Type: text/html\r\nDate: Fri, 03 Mar 2017 14:23:08 GMT\r\nEtag: \"359670651+gzip+ident\"\r\nExpires: Fri, 10 Mar 2017 14:23:08 GMT\r\nLast-Modified: Fri, 0"
+        80  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:26
+
+        20  "Date: Fri, 03 Mar 2017 14:23:07 GMT\r\n"
+        20  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+        20  "Expires: Fri, 10 Mar 2017 14:23:07 GMT\r\n"
+        20  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+        10  "HTTP/1.1 200 OK\r\nCache-Control: max-age=604800\r\nContent-Type: text/html\r\nDate: Fri, 03 Mar 2017 14:23:07 GMT\r\nEtag: \"359670651+gzip+ident\"\r\nExpires: Fri, 10 Mar 2017 14:23:07 GMT\r\nLast-Modified: Fri, 0"
+        10  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:26
+
+         1  "<!doctype html>\n<html>\n<head>\n    <title>Example Domain</title>\n\n    <meta charset=\"utf-8\" />\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" />\n    <meta name=\"viewport\" content"
+         1  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+         1  "r asking for permission.</p>\n    <p><a href=\"http://www.iana.org/domains/example\">More information...</a></p>\n</div>\n</body>\n</html>\n"
+         1  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+
+Retained String Report
+-----------------------------------
+        40  ""
+        20  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:25
+        20  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ethon-0.10.1/lib/ethon/easy/callbacks.rb:26
+
+         5  "\r\n"
+         5  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+         5  "93.184.216.34"
+         5  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:54
+
+         5  "<!doctype html>\n<html>\n<head>\n    <title>Example Domain</title>\n\n    <meta charset=\"utf-8\" />\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" />\n    <meta name=\"viewport\" content"
+         5  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+         5  "Cache-Control: max-age=604800\r\n"
+         5  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+         5  "Content-Length: 1270\r\n"
+         5  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+         5  "Etag: \"359670651+gzip+ident\"\r\n"
+         5  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+         5  "Expires: Fri, 10 Mar 2017 14:23:08 GMT\r\n"
+         5  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+         5  "HTTP/1.1 200 OK\r\n"
+         5  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+         5  "Last-Modified: Fri, 09 Aug 2013 23:54:35 GMT\r\n"
+         5  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+         5  "Server: ECS (ewr/15BD)\r\n"
+         5  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+         5  "Vary: Accept-Encoding\r\n"
+         5  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+         5  "X-Cache: HIT\r\n"
+         5  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+         5  "http://example.com/"
+         5  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:54
+
+         4  "Content-Type: text/html\r\n"
+         4  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
+         4  "Date: Fri, 03 Mar 2017 14:23:08 GMT\r\n"
+         4  /home/vagrant/.rvm/gems/ruby-2.1.5@typhoeus_test/gems/ffi-1.9.17/lib/ffi/pointer.rb:52
+
